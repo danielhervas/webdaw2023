@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a class="text-blue2" href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2"href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-gris-o text-blue py-3">CURSO DE HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="formularios" class="p-3">
+                <h2 class="text-center">FORMULARIOS</h2>
+                <form action="#" method="get">
+                    <p>Usuario <input type="text" name="Nombre" id=""></p>
+                    <p>Contraseña <input type="password" name="clave" id=""></p>
+                    <p><input type="submit" value="Login"></p>
+                </form>
+                <h3>Registros</h3>
+                <form action="#" method="post">
+                    <p>Nombre <input type="text" name="Nombre" id="" placeholder="Nombre"></p>
+                    <p>Teléfono <input type="tel" name="Teléfono" id="" placeholder="Teléfono"></p>
+                     
+                    <p>Día <select name="Dia" id="">
+                        <option value="1">Lunes</option>
+                        <option value="2">Martes</option></p>
+                    </select>
+                </form>
+               
+
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-gris-o text-center text-blue py-3">&copy; Daniel Hervás</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

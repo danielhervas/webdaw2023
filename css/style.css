@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-subr {
+    text-decoration: underline;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color: rgb(225, 245, 253);
+}
+
+.text-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-3 {
+    padding: 16px 0;
+}
+
+.px-3 {
+    padding: 0 16px;
+}
+
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+
+.bg-gris-o {
+    background-color: rgb(150, 150, 150);
+}
+
+.bg-orange {
+    background-color: rgb(255, 166, 0);
+}
+
+.text-red {
+    color: rgb(255, 30, 0);
+    font-size: 30px;
+    background-color: cyan;
+}
+
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: rgb(28, 107, 255)
+}
+
+.text-blue2 {
+    color: blue
+}
+
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1000px) {
+    #menu {
+        display: block;
+    }
+}
+
+.text-subr {
+    text-decoration: underline;
+}
+
+#olcustom ol {
+    list-style-type: upper-alpha;
+}
+
+#olcustom ol ol {
+    list-style-type: upper-roman;
+}
+
+table.tcentered {
+    margin: 0 auto;
+    width: 60%;
+    color: rgb(18, 0, 110)
+}
+
+table.tcentered th {
+    color: rgb(255, 168, 241);
+    background-color: rgb(49, 25, 25);
+}
+
+table.tcentered td {
+    background-color: rgb(201, 234, 255);
+}
+
+table.par tr:nth-last-child(odd) {
+    background-color: #ffe882;
+}
+
+table.impar tr:nth-last-child(even) {
+    background-color: rgb(64, 217, 255);
+}
+#olcustom2 ol{
+    list-style-type: lower-alpha;
+}
+#olcustom2 ol ol{
+    list-style-type: lower-roman;
+}
+#olcustom2 ol ol ol{
+    list-style-type: upper-roman;
+} 
+#ulcustomi ul ul{
+    list-style-type: disc;
+    list-style-image: url(/img/emoji\ \(1\).jpg) ;
+    
+}
+
+#ulcustomi ul ul ul{
+	list-style-type: square;
+    list-style-image: none;
+}
+.bg-azul2-o {
+    background-color: rgb(125, 218, 255);
+    display: inline;
+    font-size: 22px;
+    color:black
+}
+#listas dd {
+	padding: 14px 0;
+	font-size: 18px;
+}
+
+.encabezado {
+    color: rgb(2, 133, 143);
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.encabezadotitulo {
+    color: rgb(2, 133, 143);
+    font-size: 22px;
+    font-weight: bold;
+    font-style:italic;
+    
+}
+.encabezado2 {
+    color: rgb(0, 136, 146);
+    font-size: 15px;
+    font-weight: bold;
+}
+.FOL{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #f0f0cc;
+}
+.PROG{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #b17a79;
+}
+.BDD{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #f6cac9;
+}
+
+.ENDE{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #60c5c6;
+}
+.LMSG{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #f8d356;
+}
+.ING{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #f2a66f;
+}
+.SISI{
+    color: black;
+    font-size: 14px;
+    padding: 0px 5px;
+    background-color: #b4b36e;
+}
+.Jueves{
+    padding: 0px 50px;
+  
+}
+.Viernes{
+    padding: 0px 50px;
+  
+}
+table.tcentered2{
+    margin: 0 auto;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a class="text-blue2" href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2"href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-blue2" href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-gris-o text-blue py-3">CURSO DE HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="enlaces" class="py-3">
+                    <h2 class="text-center">ENLACES</h2>
+                    <p>Los enlaces, links,hipervínculos,se hacen con la etiqueta a</p>
+                    <h2 class="text-subr">Tipos de enlaces:</h2>
+                    <h3>Enlace a una página mía</h3>
+                    <p><a href="index.html">Ir a home</a></p>
+                    <h3>Enlace a una página de internet</h3>
+                    <p><a href="https://www.google.com/">Enlace a Google</a></p>
+                    <h3>Enlace a una página en otra pestaña usando target _blank</h3>
+                    <p><a href="https://www.toledo.es/" target="_blank">Enlace al ayuntamiento de Toledo</a></p>
+                    <h3>Enlace a un programa Javascript</h3>
+                    <p><a href="javascript:alert('¡Enhorabuena has suspendido!')">Pulsa para el programa Javascript</a></p>
+                    <h3>Enlace a un email</h3>
+                    <p><a href="mailto:alumno.393791@ies-azarquiel.es">Pulsa para mandarme un correo</a></p>
+                    <h3>Enlace en una imagen</h3>
+                    <p class="text-center"><a href="http://www.ies-azarquiel.es/"><img src="img/logoazarquiel.jpg" alt="logoazarquiel" width="100"></a></p>
+
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-gris-o text-center text-blue py-3">&copy; Daniel Hervás</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
