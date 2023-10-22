@@ -174,7 +174,7 @@ a {
 }
 
 .bg-gris-o {
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(68, 68, 68);
 }
 
 .bg-orange {
@@ -196,11 +196,11 @@ a {
 }
 
 .text-blue {
-    color: rgb(28, 107, 255)
+    color: rgb(0, 255, 85)
 }
 
 .text-blue2 {
-    color: blue
+    color: rgb(37, 6, 177)
 }
 
 footer h1 {
@@ -372,4 +372,53 @@ table.impar tr:nth-last-child(even) {
 }
 table.tcentered2{
     margin: 0 auto;
+}
+form.form-login {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+}
+form.form-registro {
+    width: 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: #e2fafa;
+}
+form.form-html5 legend {
+    background-color: rgb(66, 3, 40);
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(136, 255, 245);
+    color: rgb(0, 0, 0);
+}
+.cb {
+    clear: both;
+}
+.btn {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.btn-red {
+    background-color: rgb(66, 3, 40);
+    color: white;
+}
+.btn-blue {
+    background-color: rgb(66, 3, 40);
+    color: white;
 }
