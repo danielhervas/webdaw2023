@@ -282,8 +282,7 @@ table.impar tr:nth-last-child(even) {
 } 
 #ulcustomi ul ul{
     list-style-type: disc;
-    list-style-image: url(/img/emoji\ \(1\).jpg) ;
-    
+    list-style-image: url(/img/emoji_listas.jpg);
 }
 
 #ulcustomi ul ul ul{
